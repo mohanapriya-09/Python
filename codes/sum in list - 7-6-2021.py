@@ -7,9 +7,9 @@ for i in range(n):
     sum += x
 
 for i in lists:
-    if(lists.index(i)!=n-1):
-        print(i,end = "+")
+    if lists.index(i) != n-1:
+        print(i, end="+")
     else:
-        print(i,end = "= ")
+        print(i, end="= ")
 print(sum)
 print(min(lists)+max(lists))
